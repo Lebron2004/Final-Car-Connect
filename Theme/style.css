@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    border-bottom: 2px solid #f1f1f1;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Car Listing */
+.car-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.car-item:hover {
+    transform: translateY(-10px);
+}
+
+.car-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.car-item h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.car-item p {
+    margin: 0.5rem 0;
+}
+
+/* Form Styles */
+input, select, textarea {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
